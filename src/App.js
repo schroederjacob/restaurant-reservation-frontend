@@ -1,6 +1,7 @@
-// comment
+import { Component } from 'react/cjs/react.production.min';
 import './App.css';
 import './components/MainPage'
+import MainPage from './components/MainPage';
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
     //   </header>
     // </div>
     <div clsaaName="App">
-      <Header/>
-      Welcome to the Restaurant App
+      <MainPage/>
+      //how to stack and position buttons
     </div>
   );
 }
