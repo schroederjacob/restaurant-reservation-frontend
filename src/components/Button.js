@@ -14,7 +14,10 @@ Button.defaultProps = {
 Button.propTypes ={
     text:PropTypes.string,
     color: PropTypes.string,
+    
 }
+
+
 
 
 // left off on events in the walkthrough
