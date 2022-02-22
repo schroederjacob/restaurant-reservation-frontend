@@ -7,8 +7,8 @@ const MainPage = ({title}) => {
     return (
         <header class = 'header'>
             <h1 >{title}</h1>
-            <Button color='green' text='Customer' />
-            <Button color='green' text='Employee'/>
+            <Button color='orange' text='Customer' />
+            <Button color='orange' text='Employee'/>
         </header>
     )
 }

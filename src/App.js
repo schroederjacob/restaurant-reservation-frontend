@@ -6,8 +6,8 @@ import MainPage from './components/MainPage';
 function App() {
   return (
     <div clsaaName="App">
-      <MainPage/>
-      //how to stack and position buttons
+      <center><MainPage/></center>
+      
     </div>
   );
 }
