@@ -2,13 +2,13 @@ import PropTypes from 'prop-types'
 import Button from './Button'
 import React, { Component }  from 'react';
 
-
 const MainPage = ({title}) => {
     return (
         <header class = 'header'>
             <h1 >{title}</h1>
             <Button color='orange' text='Customer' />
             <Button color='orange' text='Employee'/>
+            
         </header>
     )
 }
@@ -22,5 +22,11 @@ MainPage.defaultProps = {
 MainPage.propTypes = {
     title: PropTypes.string,
 }
+
+// MainPage.style = {
+//     display: "inline-block",
+//     width: "200px",
+//     height: "200px",
+// }
 
 export default MainPage
