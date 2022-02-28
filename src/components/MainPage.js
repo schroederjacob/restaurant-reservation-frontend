@@ -1,27 +1,41 @@
 import PropTypes from 'prop-types'
 import Button from './Button'
-import React, { Component }  from 'react';
+import {Link} from "react-router-dom";
+    
 
-const MainPage = ({title}) => {
-    return (
-        <header class = 'header'>
-            <h1 >{title}</h1>
-            <Button color='orange' text='Customer' />
-            <Button color='orange' text='Employee'/>
+// const MainPage = ({title}) => (
+const MainPage = () => (
+    <header class = 'header'>
+        <h1>title</h1>
+        <div></div>
+        {/* <Button color = 'orange' text='Guest'/> */}
+        {/* <Button color='orange' text='Employee'/> */}   
+    </header>
+);
+
+
+
+// const MainPage = () =>{
+
+//         return (
+//         <header class = 'header'>
+//             <div></div>
+//             <button color='orange' text='Guest' onClick={'/components/ZipCode'}></button>
+//             <Button color='orange' text='Employee'/>
             
-        </header>
-    )
-}
+//         </header>)
+// }
+
 
 //style={{color: 'green', backgroundColor: 'blue'}}
 
-MainPage.defaultProps = {
-    title:'Welcome To The Restaurant App'
-}
+// MainPage.defaultProps = {
+//     title:'Welcome To The Restaurant App'
+// }
 
-MainPage.propTypes = {
-    title: PropTypes.string,
-}
+// MainPage.propTypes = {
+//     title: PropTypes.string,
+// }
 
 // MainPage.style = {
 //     display: "inline-block",
