@@ -1,36 +1,25 @@
-import {
-  Route,
-  Link,
-  Navigate,
-} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
+import React from "react";
 import './App.css';
-import React, { Component } from 'react';
+import MainPage from "./components/MainPage";
+import ZipCode from "./components/ZipCode";
+import Search from "./components/Search";
 
-import MainPage from './components/MainPage';
-import ZipCode from './components/ZipCode';
-import Search from './components/Search';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Make a Reservation!</h1>
-        </header>
-        <div className="menu">
-            <ul>
-              <li> <Link to="/mainpage">Home</Link> </li>
-              <li> <Link to="/search">Search</Link> </li>
-            </ul>
-        </div>
-        <div className="App-intro">
-            <Link exact path="/"  component={MainPage} />
-            <Link path="/search" component={Search} />
-            <Link to="/" Component = {MainPage}> MainPage </Link>
-        </div>
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      {/* <nav>
+        <Link to="/">MainPage</Link>
+        <Link to="/zipcode">ZipCode</Link>
+        <Link to="/search">Search</Link>
+      </nav> */}
+      <Routes>
+        <Route path="/" element={<MainPage />}/>
+        <Route path="/zipcode" element={<ZipCode />}/>
+        <Route path="/search" element={<Search />}/>
+      </Routes>
+    </Router>
+  );
 }
 
 export default App;

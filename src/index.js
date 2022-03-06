@@ -2,17 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Router, Route } from "react-router-dom";
 
 
-ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// ReactDOM.render(
+//   <Router>
+//     <Switch>
+//       <Route exact path="/" component={ MainPage }/>
+//       <Route exact path ="/zipcode" component = { ZipCode }/>
+
+//     </Switch>
+//   </Router>,
+//    document.getElementById('root')
+// );
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <BrowserRouter>
+//       <App />
+//     </BrowserRouter>
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// );
 
 // ReactDOM.render(
 //     <Auth0Provider
@@ -24,3 +35,10 @@ ReactDOM.render(
 //     </Auth0Provider>,
 //     document.getElementById("root")
 // );
+
+ReactDOM.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
