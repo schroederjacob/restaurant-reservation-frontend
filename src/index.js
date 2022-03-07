@@ -7,7 +7,7 @@ import { BrowserRouter, Router, Route } from "react-router-dom";
 
 // ReactDOM.render(
 //   <Router>
-//     <Switch>
+//     <Switch> 
 //       <Route exact path="/" component={ MainPage }/>
 //       <Route exact path ="/zipcode" component = { ZipCode }/>
 

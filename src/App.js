@@ -4,6 +4,7 @@ import './App.css';
 import MainPage from "./components/MainPage";
 import ZipCode from "./components/ZipCode";
 import Search from "./components/Search";
+import Restaurant1 from "./components/Restaurant1";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<MainPage />}/>
         <Route path="/zipcode" element={<ZipCode />}/>
         <Route path="/search" element={<Search />}/>
+        <Route path="/restaurant1" element={< Restaurant1/>}/>
       </Routes>
     </Router>
   );
