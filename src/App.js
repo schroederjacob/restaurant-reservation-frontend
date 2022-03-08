@@ -4,7 +4,7 @@ import './App.css';
 import MainPage from "./components/MainPage";
 import ZipCode from "./components/ZipCode";
 import Search from "./components/Search";
-import Restaurant1 from "./components/Restaurant1";
+ import Restaurant1 from "./components/Restaurant1";
 
 function App() {
   return (

@@ -7,7 +7,7 @@ function MainPage(){
         <div>
             <header>Welcome to the Restaurant Reservation App!</header>
             <ul>
-                <li><button onClick={() =>(navigate("/zipcode"))}> Guest </button></li>
+                <li><button onClick={() =>(navigate("/zipcode"))} > Guest </button></li>
                 <li><button onClick={() =>(navigate("/login"))}> Employee </button></li>
             </ul>  
         </div>
