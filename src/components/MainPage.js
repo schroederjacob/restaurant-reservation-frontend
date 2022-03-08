@@ -5,10 +5,10 @@ function MainPage(){
     let navigate = useNavigate();
     return(
         <div>
-            <header>Welcome to the Restaurant Reservation App!</header>
+            <header style={{textAlign: 'center'}}>Welcome to the Restaurant Reservation App!</header>
             <ul>
-                <li><button onClick={() =>(navigate("/zipcode"))} > Guest </button></li>
-                <li><button onClick={() =>(navigate("/login"))}> Employee </button></li>
+                <li style={{textAlign: 'center'}}><button onClick={() =>(navigate("/zipcode"))} > Guest </button></li>
+                <li style={{textAlign: 'center'}}><button onClick={() =>(navigate("/loginbutton"))}> Employee </button></li>
             </ul>  
         </div>
     )

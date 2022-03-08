@@ -27,7 +27,7 @@ function Restaurant1(){
                <li style={{textAlign: 'center'}}><button>SELECT</button></li> 
            </ul>
            <ul>
-           <li><button onClick={() =>(navigate("/"))}>Back </button></li>
+           <li><button onClick={() =>(navigate("/zipcode"))}>Back </button></li>
 
            </ul>
            
