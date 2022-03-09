@@ -1,0 +1,1 @@
+// this component is for the restaurant side for when they want to add and remove tables. 

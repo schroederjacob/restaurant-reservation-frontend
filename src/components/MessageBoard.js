@@ -1,1 +1,0 @@
-// this is for the admin side when they are editing the seating chart and want to post messages out there. 

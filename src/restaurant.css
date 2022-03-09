@@ -1,0 +1,13 @@
+.square{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(206, 47, 47);
+  }
+  .circle {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+  }
