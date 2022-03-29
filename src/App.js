@@ -26,6 +26,7 @@ function App() {
         <Route path="/restaurant2" element={< Restaurant2/>}/>
         <Route path="/restaurant3" element={< Restaurant3/>}/>
         <Route path="/loginbutton" element={<LoginButton/>}/>
+        {/* test */}
       </Routes>
     </Router>
   );
