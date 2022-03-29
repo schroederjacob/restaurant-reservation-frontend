@@ -7,7 +7,7 @@ function Restaurant3(){
     let navigate = useNavigate();
     
     return(
-       <div class="square">
+       <div class="container">
            <h1 style={{textAlign: 'center'}}>BBQ Joint</h1>
            <ul>
                <li style={{textAlign: 'center'}}>Table1</li>
@@ -26,7 +26,7 @@ function Restaurant3(){
                <li style={{textAlign: 'center'}}><button>SELECT</button></li> 
            </ul>
            <ul>
-           <li><button onClick={() =>(navigate("/zipcode"))}>Back </button></li>
+           <li><button onClick={() =>(navigate("/allrestaurants"))}>Back </button></li>
 
            </ul>
            
