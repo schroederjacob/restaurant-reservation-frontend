@@ -34,11 +34,10 @@ function Restaurant1(){
            <h1 style={{textAlign: 'center' }} >Taco Place</h1>
            <ul>
                <div class = "square" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <li style={{textAlign: 'center'}}>Table 1</li></div>
-          
-                <li  table1 style={{textAlign: 'left'}}><button onClick={codeGenerator}>SELECT</button></li> 
+               <li  table1 style={{textAlign: 'left'}}><button onClick={codeGenerator}>SELECT</button></li> 
            </ul>
            <ul>
-           <div class = "square" style={{alignContent: 'center'}}> <li style={{textAlign: 'center'}}>Table 2</li></div>
+               <div class = "circle" style={{alignContent: 'center'}}> <p class="text">Table 2</p></div>
                <li style={{textAlign: 'left'}}><button onClick={handleClick2}>SELECT</button></li> 
            </ul>
            <ul>

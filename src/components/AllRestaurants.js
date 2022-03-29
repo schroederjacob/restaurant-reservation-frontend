@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function AllRestaurants(){
     let navigate = useNavigate();
     return(
-        <div>
+        <div class="container">
             <header style={{textAlign: 'center'}}>Restaurants in your area!</header>
             <ul>
                 <li style={{textAlign: 'center'}}><button onClick={() =>(navigate("/restaurant1"))} > Taco Shop </button></li>
