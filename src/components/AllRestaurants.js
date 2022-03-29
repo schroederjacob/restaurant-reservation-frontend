@@ -13,6 +13,10 @@ function AllRestaurants(){
                 <li style={{textAlign: 'center'}}><button onClick={() =>(navigate("/restaurant2"))} > Pizza Place </button></li>
                 <li style={{textAlign: 'center'}}><button onClick={() =>(navigate("/restaurant3"))} > BBQ Joint </button></li>
             </ul>  
+            <ul>
+           <li><button onClick={() =>(navigate("/zipcode"))}>Back </button></li>
+
+           </ul>
         </div>
     )
 

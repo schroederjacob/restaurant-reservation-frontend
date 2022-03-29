@@ -12,4 +12,17 @@ code {
     monospace;
 }
 
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.square{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(240, 141, 11);
+  align-items: center;
+  justify-content: center;
+}
 

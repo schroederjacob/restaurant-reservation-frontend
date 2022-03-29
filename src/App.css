@@ -56,4 +56,9 @@ ul {
   border-bottom: 1px solid #888;
 }
 
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
 /* end of navigation styling */

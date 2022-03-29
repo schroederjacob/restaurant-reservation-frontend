@@ -5,8 +5,10 @@ import Table from './Table'
 
 
 
+
 function Restaurant1(){
     let navigate = useNavigate();
+
     const table1 = new Table(1, true);
     const table2 = new Table(2, true);
     const table3 = new Table(3, true);
@@ -21,22 +23,23 @@ function Restaurant1(){
     }
 
     const codeGenerator = () =>{
-        console.log('you have selected table: ' + 'your code to present to hostess is: ' + Math.floor(100000 + Math.random() * 900000));
+        console.log('you have selected table: '  + 'your code to present to hostess is: ' + Math.floor(100000 + Math.random() * 900000));
     }
 
     // need to come up with a smarter way of doing this. 
     // This is displaying in console but we don't want to have 10+ handleClick/codeGenerator or however many tables we have
     
     return(
-       <div class="taco">
-           <h1 style={{textAlign: 'center'}}>Taco Place</h1>
+       <div class="container">
+           <h1 style={{textAlign: 'center' }} >Taco Place</h1>
            <ul>
-                <li style={{textAlign: 'center'}}>SELECT</li>
-                <li style={{textAlign: 'center'}}><button onClick={ codeGenerator}>SELECT</button></li> 
+               <div class = "square" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}> <li style={{textAlign: 'center'}}>Table 1</li></div>
+          
+                <li  table1 style={{textAlign: 'left'}}><button onClick={codeGenerator}>SELECT</button></li> 
            </ul>
            <ul>
-               <li style={{textAlign: 'center'}}>table2</li>
-               <li style={{textAlign: 'center'}}><button onClick={handleClick2}>SELECT</button></li> 
+           <div class = "square" style={{alignContent: 'center'}}> <li style={{textAlign: 'center'}}>Table 2</li></div>
+               <li style={{textAlign: 'left'}}><button onClick={handleClick2}>SELECT</button></li> 
            </ul>
            <ul>
                <li style={{textAlign: 'center'}}>Table 3</li>
@@ -47,11 +50,9 @@ function Restaurant1(){
                <li style={{textAlign: 'center'}}><button>SELECT</button></li> 
            </ul>
            <ul>
-           <li><button onClick={() =>(navigate("/zipcode"))}>Back </button></li>
+           <li><button onClick={() =>(navigate("/allrestaurants"))}>Back </button></li>
 
            </ul>
-           
-
        </div>
     
     );
